@@ -1,0 +1,48 @@
+create following databases in postgres:
+---------------------------------------
+account_detail
+database1
+database2
+
+create following databases in mysql
+---------------------------------------
+database3
+database4
+database5
+
+run the following commands to migrate model into DB:
+----------------------------------------------------
+python manage.py migrate accounts
+python manage.py migrate products --database=database1
+python manage.py migrate products --database=database2
+python manage.py migrate products --database=database3
+python manage.py migrate products --database=database4
+python manage.py migrate products --database=database5
+
+run the following command to migrate session properly into DB
+--------------------------------------------------------------
+python manage.py migrate --fake sessions zero
+python manage.py showmigrations sessions [ ] 0001_initial
+python manage.py migrate --fake-initial
+
+
+python manage.py createsuperuser
+python manage.py runserver
+go to http://localhost:8000/admin
+
+add following into Database Model using admin-interface
+---------------------------------------------------------
+database1
+database2
+database3
+database4
+database5
+
+Add users into User model and assign them Database.
+Click on each user and provide the email id
+--------------------------------------------------------
+now go to base url : http://localhost:8000
+login as a user and perform the CRUD operation
+
+check the entries in associated DB
+
