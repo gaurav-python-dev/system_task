@@ -65,24 +65,6 @@ TEMPLATES = [
     },
 ]
 
-
-
-
-# Database
-# https://docs.djangoproject.com/en/1.10/ref/settings/#databases
-
-
-
-
-# Password validation
-# https://docs.djangoproject.com/en/1.10/ref/settings/#auth-password-validators
-
-
-
-
-# Internationalization
-# https://docs.djangoproject.com/en/1.10/topics/i18n/
-
 LANGUAGE_CODE = 'en-us'
 
 TIME_ZONE = 'UTC'
@@ -99,10 +81,5 @@ USE_TZ = True
 
 STATIC_URL = '/static/'
 AUTH_USER_MODEL = "accounts.User"
-STATICFILES_DIRS=[os.path.join(BASE_DIR,'static_in_env')]
-VENV_PATH=os.path.dirname(BASE_DIR)
-STATIC_ROOT=os.path.join(VENV_PATH,'static_root')
-MEDIA_URL='/media/'
-MEDIA_ROOT=os.path.join(VENV_PATH,'media')
 
 

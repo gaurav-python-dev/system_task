@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="490a1618-06d9-4140-805a-85236b9a7e67" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/systango/settings/base.py" beforeDir="false" afterPath="$PROJECT_DIR$/systango/settings/base.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,7 +33,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$USER_HOME$/Desktop/systango" />
+    <property name="last_opened_file_path" value="D:/cloning final/system_task/systango" />
   </component>
   <component name="RunManager">
     <configuration name="systango" type="Python.DjangoServer" factoryName="Django server">
@@ -75,7 +75,7 @@
       <workItem from="1583553430857" duration="8053000" />
       <workItem from="1583662544610" duration="4828000" />
       <workItem from="1583689792133" duration="12647000" />
-      <workItem from="1583731898643" duration="6634000" />
+      <workItem from="1583731898643" duration="8124000" />
     </task>
     <servers />
   </component>
@@ -83,10 +83,10 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="463" y="119" key="FileChooserDialogImpl" timestamp="1583727242587">
+    <state x="463" y="119" key="FileChooserDialogImpl" timestamp="1583746363882">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="463" y="119" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1583727242587" />
+    <state x="463" y="119" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1583746363882" />
     <state x="45" y="171" key="com.intellij.ide.util.TipDialog" timestamp="1583731906334">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
