@@ -1,6 +1,10 @@
 [Important note : Since I am using django-debug-toolbar in development setting, each time You redirect on a url on browser, You will get 302 Error from django-debug-toolbar with next redirect link. just click on shown link, and it will redirect to next page. If you don't want this behaviour of redirection, simply comment line no. 6 and 7 in settings\development.py] <br><br>
 [Note : I'm using Python 3.7.3 in this project]  <br>
 
+create virtual environment and install all the requirements from requirements.txt
+--------------------------------------------------------------------------------
+pip install -r reuirements.txt
+
 create following databases in postgres: 
 ------------------------------------------
 account_detail <br>
