@@ -3,7 +3,7 @@
 
 create virtual environment and install all the requirements from requirements.txt
 --------------------------------------------------------------------------------
-pip install -r reuirements.txt
+pip install -r reuirement.txt
 
 create following databases in postgres: 
 ------------------------------------------
