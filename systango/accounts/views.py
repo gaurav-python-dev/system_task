@@ -1,14 +1,3 @@
-# from django.views.generic import ListView,DetailView,CreateView,UpdateView
-# from .models import User,Database
-# from products.models import Product
-# from django.contrib.auth.mixins import  LoginRequiredMixin
-# from django.shortcuts import render,redirect
-# from django.contrib.auth.decorators import login_required
-
-# @login_required
-# def base_view(request):
-#     dbs=Database.objects.filter(user__id=request.user.id)
-#     return render(request,'accounts/user_detail.html',{'dbs':dbs})
 
 from django.contrib.auth.mixins import LoginRequiredMixin
 from django.urls import reverse
@@ -21,8 +10,6 @@ class UserDetailView(LoginRequiredMixin, DetailView):
     # These next two lines tell the view to index lookups by username
     slug_field = "username"
     slug_url_kwarg = "username"
-
-
 
 
 

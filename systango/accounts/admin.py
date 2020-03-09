@@ -6,6 +6,9 @@ from django.contrib.auth.forms import UserChangeForm, UserCreationForm
 from products.models import Product
 from .models import User,Database
 
+admin.site.site_header='Systango Admin'
+admin.site.site_title='Systango|Admin'
+
 
 class UserCreationFormExtended(UserCreationForm):
     def __init__(self, *args, **kwargs):

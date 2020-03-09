@@ -27,6 +27,7 @@ def show_toolbar(request):
 
 DEBUG_TOOLBAR_CONFIG = {
     'INTERCEPT_REDIRECT':False,
+    'DISABLE_PANELS': ('debug_toolbar.panels.profiling.ProfilingPanel',),
     'SHOW_TOOLBAR_CALLBACK':show_toolbar
 }
 

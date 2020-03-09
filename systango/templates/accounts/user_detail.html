@@ -1,11 +1,4 @@
-{#{% extends 'base.html' %}#}
-{#{% block content %}#}
-{#    {% for db in dbs %}#}
-{#        <ul>#}
-{#             <li><button>{{ db }}</button> </li>#}
-{#        </ul>#}
-{#    {% endfor %}#}
-{#{% endblock %}#}
+
 
 
 {% extends "base.html" %}
@@ -30,7 +23,7 @@
 <div class="row">
 
   <div class="col-sm-12">
-    <a class="btn btn-primary" href="{% url 'users:update' %}" role="button">My Info</a>
+    <a class="btn btn-primary " href="{% url 'users:update' %}" role="button">My Info</a>
   </div>
 
 </div>

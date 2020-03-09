@@ -60,3 +60,4 @@ DATABASES = {
     }
 }
 
+WSGI_APPLICATION = 'systango.wsgi.application'

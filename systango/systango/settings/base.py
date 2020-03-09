@@ -65,7 +65,7 @@ TEMPLATES = [
     },
 ]
 
-WSGI_APPLICATION = 'systango.wsgi.application'
+
 
 
 # Database
