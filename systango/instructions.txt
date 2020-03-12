@@ -2,6 +2,8 @@
 
 [Note : I'm using Python 3.7.3 in this project] 
 
+add USER and PASSWORD for database accordingly in settings\development.py
+
 create following databases in postgres:
 ---------------------------------------
 account_detail
