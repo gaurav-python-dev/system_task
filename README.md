@@ -6,6 +6,7 @@ create virtual environment and install all the requirements from requirements.tx
 pip install -r reuirement.txt
 
 mention the USER and PASSWORD for DATABASE accordingly in settings\development.py file
+----------------------------------------------------------------------------------------
 
 create following databases in postgres: 
 ------------------------------------------
