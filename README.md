@@ -3,6 +3,8 @@
 
 create virtual environment and install all the requirements from requirements.txt
 --------------------------------------------------------------------------------
+
+**************************************************************Gaurav****************
 pip install -r requirements.txt
 
 mention the USER and PASSWORD for DATABASE accordingly in settings\development.py file
