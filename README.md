@@ -10,6 +10,8 @@ pip install -r requirements.txt
 mention the USER and PASSWORD for DATABASE accordingly in settings\development.py file
 ----------------------------------------------------------------------------------------
 
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx Sharma Xxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+
 create following databases in postgres: 
 ------------------------------------------
 account_detail <br>
